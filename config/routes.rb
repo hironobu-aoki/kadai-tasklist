@@ -1,12 +1,4 @@
 Rails.application.routes.draw do
-  get 'toppages/index'
-
-  get 'sessions/new'
-
-  get 'sessions/create'
-
-  get 'sessions/destroy'
-
   root to: 'toppages#index'
 
   get 'login', to: 'sessions#new'
